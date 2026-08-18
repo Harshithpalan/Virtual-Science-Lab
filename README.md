@@ -1,16 +1,30 @@
-# React + Vite
+# Virtual Science Lab
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+AI-powered interactive science experiments and simulations built with React + Vite.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Chemistry Lab** - Mix chemicals, observe reactions, pH testing
+- **Physics Lab** - Projectile motion, pendulum, circuits, wave interference
+- **Biology Lab** - Cell explorer, DNA builder, virtual microscope
+- **AI Lab Assistant** - Chat guidance, experiment predictions, result analysis
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React 19 + Vite
+- React Router DOM
+- Framer Motion (animations)
+- Lucide React (icons)
 
-## Expanding the Oxlint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+```bash
+npm install
+npm run dev
+```
+
+## Build
+
+```bash
+npm run build
+```
